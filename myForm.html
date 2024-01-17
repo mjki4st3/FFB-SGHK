@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+    <form>
+        <h2> Employment Form </h2>
+        <!--Text input-->
+        <label for="name"> Name: </label>
+        <input type="text" id="name" name="name" required>
+
+        <br />
+        <!--Text Area-->
+        <label for="Introduction"> Introduction:</label>
+        <textarea id="Introduction" name="Introduction" rows="4" cols="50" placeholder="Enter message here"
+        required> </textarea>
+        
+        <br />
+        <!-- Dropdown Menu -->
+        <label for="gender"> Gender: </label>
+        <select id="gender" name="gender">
+            <option value="male"> Male </option>
+            <option value="female"> Female </option>
+        </select>
+
+        <br/>
+        <!-- Number Input-->
+        <label for="age"> Age: </label>
+        <input type="number" id="age" name="age" min="18" max="65" required>
+
+        <br />
+        <!-- Radio Buttons -->
+        What is your current marriage status?
+        <input type="radio" id="Single" name="options" value="Single">
+        <label for="Single"> Single </label>
+        <input type="radio" id="Married" name="options" value="Married">
+        <label for="Married"> Married </label>
+        <input type="radio" id="Divorced" name="options" value="Divorced">
+        <label for="Divorced"> Divorced </label>
+        <!--Checkboxes-->
+
+        <br />
+        Is there any health concern?
+        <input type="checkbox" id="check1" name="check1" value="check1">
+        <label for="check1"> Healthy </label>
+        <input type="checkbox" id="check2" name="check2" value="check2">
+        <label for="check2"> Hidden disease </label>
+
+        <br />
+        <button type="button"disabled>
+            Disabled button! </button>
+
+        <br />
+        <!--Buttons-->
+        <button type="submit"> Submit </button>
+    </form>
+    
+</html>
